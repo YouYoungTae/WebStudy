@@ -111,3 +111,9 @@ table {
 .pd_A8{
   padding: 8px;
 }
+article.toggleView {
+  visibility: collapse;
+}
+article.toggleView .active{
+  visibility: visible;
+}
