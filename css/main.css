@@ -49,6 +49,15 @@ table {
 
 .PrimaryColor { background-color: #D7C49EFF; color: #343148FF;}
 .SecondryColor { background-color: #343148FF; color: #D7C49EFF;}
+
+.DocHeader { background-color: #DCE2F0; color: #50586c;}
+.DocBody { background-color: #50586c; color: #DCE2F0;}
+.DocColor1 {
+   color: #DCE2F0;
+}
+.DocColor2 {
+  color: #50586c;
+}
 .pstyleHeader {
   font-size: x-large;
   padding: 20px 10px; 
@@ -113,4 +122,20 @@ table {
 }
 .pd_A8{
   padding: 8px;
+}
+.pd_t10{
+  padding-top: 10px;
+}
+.lsItem li {
+  padding-top: 10px;
+}
+.codePre{
+  border-style: dotted;
+  border-color: black ;
+                                                        border-width: 1px;
+                                                        padding: 6px;
+                                                        margin: 2px;
+                                                        font-family: monospace;
+                                                        font-weight: 560;
+
 }
