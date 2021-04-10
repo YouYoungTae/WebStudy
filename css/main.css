@@ -110,8 +110,6 @@ table {
 #viewPage{
   display: contents;
   width: 60wd !important;
-  max-height: 1000px;
-  overflow: scroll;
 }
 .pd_A8{
   padding: 8px;
