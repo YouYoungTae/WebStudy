@@ -15,19 +15,20 @@ window.onload= function(){
         }
 
     }
-    document.querySelectorAll("#viewPage .toggleView")[0].classList.toggle("active");
-    
+
     document.querySelectorAll("#viewPageSelector .toggleView")
     .forEach( (e) => {
         e.addEventListener("click", (ei ) =>{
             console.log(fncLoc(ei.currentTarget));
-            for (var num=0 ;;){
-                document.querySelectorAll("#viewPage .toggleView")[fncLoc(ei.currentTarget)].classList.remove("active")
+            for (var num=0 ;num< document.querySelectorAll("#viewPage .toggleView").length;){
+                document.querySelectorAll("#viewPage .toggleView")[num]["visiblity"]="collapse"
+
                 if (num >50) {break;}
                 num ++;
             }
+            var findnum =fncLoc(ei.currentTarget);
 
-            document.querySelectorAll("#viewPage .toggleView")[fncLoc(ei.currentTarget)].classList.toggle("active");
+            document.querySelectorAll("#viewPage .toggleView")[findnum]["visiblity"]="visiblie"
         });
     });
 
