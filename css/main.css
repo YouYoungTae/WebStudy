@@ -118,7 +118,7 @@ table {
 }
 #viewPage{
   display: contents;
-  width: 70wd !important;
+
 }
 .pd_A8{
   padding: 8px;
@@ -132,10 +132,29 @@ table {
 .codePre{
   border-style: dotted;
   border-color: black ;
-                                                        border-width: 1px;
-                                                        padding: 6px;
-                                                        margin: 2px;
-                                                        font-family: monospace;
-                                                        font-weight: 560;
+  border-width: 1px;
+  padding: 6px;
+  margin: 2px;
+  font-family: monospace;
+  font-family: monospace;
+  font-weight: 560;
 
+}
+.pivot-td .th0 {
+  min-width: 80px;
+  border: 1px solid #DCE2F0;
+  font-size: large;
+  font-weight: 500;
+  background-color: #DCE2F0; color: #50586c;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+}
+.pivot-td .td {
+  min-width: 80px;
+  border: 1px solid #DCE2F0;
+  font-size: large;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
 }
